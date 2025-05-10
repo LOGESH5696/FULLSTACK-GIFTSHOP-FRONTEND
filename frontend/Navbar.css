@@ -1,0 +1,40 @@
+/* src/styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:black;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    /* font-family: 'Pacifico', cursive; */
+    font-size: 1.5rem;
+    display:flex;
+  }
+  .navbar .logo img{
+    width:30px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+    color:rgb(243, 119, 36);
+  }
+  .gift{
+    color:rgb(255, 170, 184);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .dynamics{
+    color:blueviolet;
+    font-family: 'Montserrat', sans-serif;
+  }
+  

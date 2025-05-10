@@ -1,0 +1,12 @@
+/* src/styles/ProductPage.css */
+.product-page {
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .product-page h1 {
+    text-align: center;
+  }
+  .productTitle{
+    text-align: center;
+  }

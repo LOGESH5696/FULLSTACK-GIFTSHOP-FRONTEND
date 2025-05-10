@@ -1,0 +1,11 @@
+/* src/styles/LoginPage.css */
+.login-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .login-page h1 {
+    color: #ff6f61;
+    margin-bottom: 2rem;
+  }
+  

@@ -1,0 +1,65 @@
+.order-confirmation-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.order-confirmation-page p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+.order-confirmation-page p:first-of-type {
+  font-size: 1.3em;
+  color: #27ae60;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.order-details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.order-details p {
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.order-details p:last-child {
+  border-bottom: none;
+}
+
+.order-details strong {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+
+.order-confirmation-image {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,137 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+.homepage {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #956be4; /* Updated to a more vibrant color */
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem; /* Increased padding for a more spacious look */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem; /* Increased font size */
+  margin-bottom: 1rem; /* Adjusted margin */
+}
+
+.hero-content p {
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 2.5rem; /* Adjusted margin */
+}
+
+.shop-now-button {
+  padding: 1rem 3rem; /* Increased padding */
+  font-size: 1.25rem; /* Increased font size */
+  color: white;
+  background: #ff6f61;
+  border: none;
+  border-radius: 50px; /* Changed to rounded button */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s; /* Added transform for hover effect */
+  text-decoration: none;
+}
+
+.shop-now-button:hover {
+  background: #e65a50;
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Featured Products */
+.featured-products {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f3f4f6; /* Slightly different background color for contrast */
+}
+
+.featured-products h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Increased gap for better spacing */
+  justify-content: center;
+}
+
+.product-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem; /* Increased padding */
+  width: 260px; /* Adjusted for better alignment */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly increased shadow for better effect */
+  transition: transform 0.3s; /* Added transition for hover effect */
+}
+
+.product-item:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Increased border radius */
+  margin-bottom: 1.5rem; /* Adjusted margin */
+}
+
+.product-item h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem; /* Increased font size */
+  margin: 0.5rem 0;
+}
+
+.product-item p {
+  font-size: 1.1rem; /* Increased font size */
+  color: #555;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #fff; /* White background for a clean look */
+}
+
+.about-us h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  font-size: 1.25rem; /* Increased font size */
+  line-height: 1.8; /* Increased line height for better readability */
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+  padding: 1.5rem; /* Increased padding */
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.1rem; /* Increased font size */
+}
